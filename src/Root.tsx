@@ -10,6 +10,7 @@ import { Scene04Architecture } from "./scenes/Scene04Architecture";
 import { Scene05Demo } from "./scenes/Scene05Demo";
 import { Scene06Safety } from "./scenes/Scene06Safety";
 import { Scene07Roadmap } from "./scenes/Scene07Roadmap";
+import { Scene08RealDemo } from "./scenes/Scene08RealDemo";
 
 const base = { fps: FPS, width: WIDTH, height: HEIGHT } as const;
 
@@ -38,6 +39,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="Scene5-Demo" component={Scene05Demo} durationInFrames={SCENES.demo.dur} {...base} />
         <Composition id="Scene6-Safety" component={Scene06Safety} durationInFrames={SCENES.safety.dur} {...base} />
         <Composition id="Scene7-Roadmap" component={Scene07Roadmap} durationInFrames={SCENES.roadmap.dur} {...base} />
+        <Composition id="Scene8-RealDemo" component={Scene08RealDemo} durationInFrames={SCENES.realDemo.dur} {...base} />
       </Folder>
     </>
   );
