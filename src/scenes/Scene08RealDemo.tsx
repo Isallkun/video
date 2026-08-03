@@ -11,9 +11,9 @@ import {
 import { Video } from "@remotion/media";
 import { COLORS, FONT_MONO, FONT_SANS } from "../theme/tokens";
 
-// Source recording is 82.33s @ 24fps, video-only. Played at 1.4x it lasts ~58.8s.
+// Source recording is 116.88s @ 24fps, video-only. Played at 1.4x it lasts ~83.5s.
 export const FOOTAGE_PLAYBACK_RATE = 1.4;
-export const FOOTAGE_SECONDS = 82.33 / FOOTAGE_PLAYBACK_RATE; // ~58.8s
+export const FOOTAGE_SECONDS = 116.88 / FOOTAGE_PLAYBACK_RATE; // ~83.5s
 
 /** Bridge title card that hands off from the animated close to the real demo. */
 const BridgeCard: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {

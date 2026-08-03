@@ -67,15 +67,18 @@ const CUES: Cue[] = [
   { from: 4065, to: 4290, text: "This is just the start: backend-mediated runs, price-feed conditions, and automation are next." },
   { from: 4305, to: 4420, text: "Archestra — the visual DeFi strategy studio, built on Arc." },
   { from: 4430, to: 4495, text: "But don't just take our word for it." },
-  // Scene 8 — Real demo footage (bridge 4500-4575, footage 4575-6339)
-  { from: 4515, to: 4720, text: "This is the real Archestra studio, running live on Arc Testnet." },
-  { from: 4735, to: 4980, text: "No mockups — this is exactly what you'd see as a real user." },
-  { from: 4995, to: 5260, text: "We connect the wallet, then pick a template and create the workflow on-chain." },
-  { from: 5275, to: 5540, text: "We open a spending session, then mint and fund the vault with demo USDC." },
-  { from: 5555, to: 5790, text: "Everything's in place, so let's go ahead and run the strategy." },
-  { from: 5805, to: 6040, text: "Watch the progress update in real time as each step completes." },
-  { from: 6055, to: 6220, text: "It's all indexed straight from on-chain events — nothing is faked." },
-  { from: 6235, to: TOTAL_FRAMES, text: "That's Archestra — compose, simulate, and run DeFi on-chain, safely." },
+  // Scene 8 — Real demo footage (bridge 4500-4575, footage 4575-7080)
+  { from: 4515, to: 4740, text: "This is the real Archestra studio, running live on Arc Testnet." },
+  { from: 4760, to: 4990, text: "No mockups, no edits — this is exactly what you'd see as a real user." },
+  { from: 5010, to: 5240, text: "It all starts by connecting your wallet to the Arc network." },
+  { from: 5260, to: 5510, text: "From here, we browse the templates and pick the strategy we want to run." },
+  { from: 5530, to: 5790, text: "Then we create that workflow on-chain, straight through the registry contract." },
+  { from: 5810, to: 6060, text: "With the workflow live, we open a spending session to set our safety limits." },
+  { from: 6080, to: 6340, text: "Next we mint and fund the vault with some demo USDC to work with." },
+  { from: 6360, to: 6560, text: "Everything's in place — so let's go ahead and run the strategy." },
+  { from: 6580, to: 6790, text: "Watch the progress update in real time as each step completes on-chain." },
+  { from: 6810, to: 6960, text: "It's all indexed straight from on-chain events." },
+  { from: 6975, to: TOTAL_FRAMES, text: "That's Archestra — compose, simulate, and run DeFi on-chain, safely." },
 ];
 
 export const ArchestraDemo: React.FC<{ showSubtitles?: boolean }> = ({

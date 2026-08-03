@@ -5,3 +5,6 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Large source footage — keep in resources/ (ignored at repo root), not committed.
+public/assets/demo-recording.mp4
